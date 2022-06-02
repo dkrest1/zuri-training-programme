@@ -1,0 +1,10 @@
+# created by virtualenv automatically
+
+# Environments
+zurienv/
+
+
+# Django stuff:
+*.log
+local_settings.py
+
