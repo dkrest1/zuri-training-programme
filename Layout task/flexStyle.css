@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container {
+  width: 144rem;
+  display: flex;
+  justify-content: center;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 4rem;
+}
+
+.col-1 {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.col-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.col-3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px 0;
+}
+
+.car {
+  width: 5rem;
+  margin-bottom: 3rem;
+}
+
+.header {
+  font-family: "Big Shoulders Display", cursive;
+  margin-bottom: 2.5rem;
+}
+
+.text {
+  margin-bottom: 8rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: #fff;
+}
+
+.btn-col-1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-col-2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-col-3 {
+  color: hsl(179, 100%, 13%);
+}
+
+/* media query */
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 1.3rem;
+  }
+
+  .container {
+    width: 37.5rem;
+    flex-direction: column;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3 {
+    flex-basis: 25rem;
+  }
+}
