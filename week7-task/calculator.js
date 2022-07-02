@@ -1,5 +1,5 @@
-// a simple function to build a
-console.log(
+// a simple function to build a calculator that perform addition, subtraction, multiplication and division
+alert(
   "welcome, this is a simple calculator that perform addition, subtraction, division and multiplication operation"
 );
 
@@ -26,4 +26,4 @@ if (operation == "+") {
 }
 
 // display final result to the console
-console.log(`${number1}  ${operation} ${number2} = ${result}`);
+console.log(`${result} = ${number1} ${operation} ${number2}`);
